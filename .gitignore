@@ -1,0 +1,19 @@
+# Python Virtual Environment
+venv/
+ENV/
+env/
+
+# Local Vector Database (FAISS)
+faiss_index/
+
+# Document Folder (Optional: ignore if you don't want to share your PDFs)
+# docs/
+
+# Python Cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# System Files
+.DS_Store
+Thumbs.db
