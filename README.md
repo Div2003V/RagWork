@@ -34,8 +34,8 @@ A fully local, privacy-focused Retrieval-Augmented Generation (RAG) system built
 1. Prerequisites
 Install [Ollama](https://ollama.com/) and download the necessary models:
 ```bash
-ollama pull llama3.2
-ollama pull nomic-embed-text
+Ollama pull llama3.2
+Ollama pull nomic-embed-text
 
 
 2. Installation
@@ -81,10 +81,3 @@ Hardware: Performance depends on your local CPU/GPU. Ensure you have at least 8G
 
 Updating Docs: If you add new files to the /docs folder, you must re-run retrieval_pipeline.py to update the database.
 
-
-### One final tip for your GitHub:
-Don't forget to create a `.gitignore` file and add these two lines to it. This prevents you from uploading your huge "virtual environment" and your private "database" to the public internet:
-```text
-venv/
-faiss_index/
-__pycache__/
